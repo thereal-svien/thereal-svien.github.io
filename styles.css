@@ -1,3 +1,6 @@
 body {
 background-color: #00050b;
+color: #fffff;
+transition: color 0.5;
+font-family: Consolas;
 }
