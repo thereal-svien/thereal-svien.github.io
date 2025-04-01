@@ -5,6 +5,16 @@ font-family: Consolas;
 transition: color 1s;
 }
 
+button {
+color: #00ff00;
+background-color: #0102f02
+}
+
+button:hover {
+color: #00ad00;
+background-color: #1aff0a
+}
+
 /* Tooltip container */
 .tooltip {
   position: relative;
