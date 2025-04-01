@@ -2,7 +2,7 @@ body {
 background-color: #a25f82; /* #00050b*/
 color: #00ff00;
 font-family: Consolas;
-transition: color 1;
+transition: color 1s;
 }
 
 /* Tooltip container */
