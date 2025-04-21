@@ -1,14 +1,35 @@
-/* light mode (default) */
-body {
-  background-color: white;
-  color: black;
-  transition: background-color 0.3s, color 0.3s;
+/* google font fonts */
+.kalam-light {
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
 }
 
-/* dark mode */
+.kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kalam-bold {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+/* end */
+
+/* light mode */
 body.dark-mode {
+  background-color: white;
+  color: black;
+}
+
+/* dark mode (default) */
+body {
   background-color: #121212;
   color: white;
+  transition: background-color 0.3s, color 0.3s;
+  /*font: url();*/
 }
 /*
 body select {
@@ -20,4 +41,5 @@ button#toggle-dark {
   padding: 0.5em;
   border: none;
   background: none;
+  color: gray;
 }
